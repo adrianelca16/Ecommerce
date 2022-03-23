@@ -1,0 +1,17 @@
+let stockProductos= [
+    {id: 1, nombre: "Pan canilla", tipo: "salado", cantidad: 1, precio: 2, img: './assets/img/canilla.jpg'},
+    {id: 2, nombre: "Pan frances", tipo: "salado", cantidad: 1, precio: 1, img: 'assets/img/frances.jpg'},
+    {id: 3, nombre: "Pan campesino", tipo: "salado", cantidad: 1, precio: 3, img: './assets/img/campesino.jpg'},
+    {id: 4, nombre: "Pan sobado", tipo: "salado", cantidad: 1, precio: 3, img: './assets/img/sobado.jpg'},
+    {id: 5, nombre: "Pan de hamburguesa", tipo: "salado", cantidad: 1, precio: 2, img: './assets/img/hamburguesa.jpg'},
+    {id: 6, nombre: "Cachito", tipo: "salado", cantidad: 1, precio: 4, img: './assets/img/cachito.jpg'},
+    {id: 7, nombre: "Pan de jamon", tipo: "salado", cantidad: 1, precio: 6, img: './assets/img/pan de jamon.jpg'},
+    {id: 8, nombre: "Acemita", tipo: "dulce", cantidad: 1, precio: 1, img: './assets/img/acemitas.jpg'},
+    {id: 9, nombre: "Bombas", tipo: "dulce", cantidad: 1, precio: 3, img: './assets/img/bombas.jpg'},
+    {id: 10, nombre: "Golfeados", tipo: "dulce", cantidad: 1, precio: 2, img: './assets/img/golfeados.jpg'},
+    {id: 11, nombre: "Pan de arequipe", tipo: "dulce", cantidad: 1, precio: 3, img: './assets/img/pan de arequipe.jpg'},
+    {id: 12, nombre: "Pan de chocolate", tipo: "dulce", cantidad: 1, precio: 2, img: './assets/img/pan de chocolate.jpg'},
+    {id: 13, nombre: "Pan de coco", tipo: "dulce", cantidad: 1, precio: 2, img: './assets/img/pan de coco.jpg'},
+    {id: 14, nombre: "Pan de guayaba", tipo: "dulce", cantidad: 1, precio: 3, img: './assets/img/pan de guayaba.jpg'},
+    {id: 15, nombre: "Roles de canela", tipo: "dulce", cantidad: 1, precio: 2, img: './assets/img/roles.jpg'},
+]

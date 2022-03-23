@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>products 🚗</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/section.css">
+  <script src="assets/JavaScript/app.js"></script>
+  <script src="assets/JavaScript/stock.js"></script>
+  <script defer src="assets/JavaScript/main.js"></script>
+</head>
+<body>
+  <header class="topheader">
+    <nav class="topnav">
+        <a href="#" class="logo">
+            <img src="assets/img/2.png" alt="La magia del trigo" class="imgLogo">
+            <h1 class="logo-title">La magia del trigo</h1>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+            <img src="assets/img/hamburger-icon.svg" alt="Abrir menú">
+        </button>
+        <ul class="menu">
+            <button class="close-menu" aria-label="Cerrar menú">
+                <img src="assets/img/close-icon.svg" alt="Abrir menú">
+            </button>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+  </header>
+    <div id="wrapper" class="wrapper grid-span-2 container-products-1">
+      <div class="container products-principal-salty">
+        <h2 class="title produts-principal-title">
+          Productos:
+        </h2>
+        <div class="products" id="products-container"></div>
+      </div>
+      <aside class="sidebar cart">
+        <h2 class="produts-principal-title">Cart</h2>
+        <p>items: <span id="count"></span></p>
+        <div id="cart" class=""></div>
+      </aside>
+    </div>
+    <footer>
+      <p>Hecho en academlo💛</p>
+  </footer>
+    <script src="main.js"></script>
+</body>
+</html>

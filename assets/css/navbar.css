@@ -1,0 +1,108 @@
+.topheader{
+    box-shadow: 0 4px 5px var(--navbar-shallow-color);
+    position: fixed;
+    background-color: var(--theme-color);
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+    align-items: center;
+}
+/*logo*/
+.logo{
+    display: flex;
+}
+.imgLogo{
+    width: 60px;
+    margin-left: 10px;
+}
+.logo-title{
+    margin-left: 20px;
+    color: var(--text-color);
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+/* menu */
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    padding: 0 15px;
+    border-radius: 3px;
+}
+.menu a{
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.open-menu,
+.close-menu{
+    display: none;
+}
+.menu li:hover{
+    border-bottom: 2px solid rgb(206, 205, 202);
+    transition: 0.4s;
+}
+.menu a:hover{
+    color: var(--secundary-color);
+}
+@media (max-width: 950px){
+    /* menu */
+    .menu{
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: var(--menu-mobile-background-color);
+        height: 100%;
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+    }
+    .menu li{
+        padding: 0;
+    }
+    .menu a{
+        color: var(--text-color-inverse);
+        line-height: 70px;
+        font-size: 25px;
+    }
+    .open-menu,
+    .close-menu{
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    .close-menu{
+        align-self: flex-end;
+        padding: 20px 15px;
+    }
+    .menu_opened{
+        opacity: 1;
+        pointer-events: all;
+    }
+    .open-menu:focus:not(:focus-visible),
+    .close-menu:focus:not(:focus-visible){
+        outline: none;
+    }
+    .menu a:hover{
+        color: rgb(10, 141, 202)
+    }
+}

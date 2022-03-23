@@ -1,0 +1,146 @@
+
+.img-principal{
+    width: 90%;
+    height: 200px;
+    background-image: url(../img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.products-principal-salty{
+    display: flex;
+    flex-direction: column;
+}
+.products-principal-sugar{
+    display: flex;
+    flex-direction: column;
+}
+.products-principal-bread{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 300px;
+    background-color: var(--products-color);
+    padding: 20px;
+    border-radius: 4px;
+}
+.products-title{
+    font-size: 30px;
+}
+.products-principal-bread p{
+    font-size: 20px;
+    line-height: 1.3;
+}
+.products-btn{
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.products-btn:hover{
+    filter: brightness(130%);
+    transition: .3s;
+}
+.produts-principal-title{
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+footer{
+    font-size: 40px;
+    margin: 30px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.contact-principal{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.contact-email, .contact-phone{
+    text-align: center;
+}
+.contact-img{
+    width: 30%;
+}
+.contact-title{
+    font-size: 40px;
+    text-align: center;
+}
+.contact-subtitle{
+    font-size: 30px;
+}
+.contact-email p, .contact-phone p{
+    font-size: 18px;
+    font-weight: 400;
+}
+@media (min-width: 950px){
+    .products-principal{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 40px ;
+    }
+    .produts-principal-title{
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: 100px;
+    }
+    .contact-principal{
+        flex-direction: row;
+    }
+    .contact-img{
+        width: 30%;
+    }
+    .contact-title{
+        font-size: 50px;
+    }
+    .contact-subtitle{
+        font-size: 40px;
+    }
+    .contact-email p, .contact-phone p{
+        font-size: 25px;
+        line-height: 1.3;
+    }
+    .container-products-1{
+        display: flex;
+        
+    }
+    .cart{
+        position: fixed;
+        top: 50px;
+        right: 100px;
+    }
+    .cart-list{
+        list-style: none;
+    }
+    .cart-li{
+        padding: 10px;
+    }
+    .products-principal-salty{
+        width: 80%;
+    }
+    .products-principal-bread{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 30%;
+        background-color: var(--products-color);
+        padding: 20px;
+        border-radius: 4px;
+    }
+}
